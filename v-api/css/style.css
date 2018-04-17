@@ -1,0 +1,185 @@
+  @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+  @import url('https://fonts.googleapis.com/css?family=Lilita+One');
+  html,body,.container-fluid{
+          height:100%;
+        }
+        .navbar-brand{
+          font-family: 'Luckiest Guy', cursive;
+    color:#f9d21f !important;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+    
+        }
+        .nav-link{
+          font-family: 'Lilita One', cursive;
+        }
+        .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link{
+             color:#f9d21f !important;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+        }
+        .nav-link:hover{
+           color:#f9d21f !important;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+        }
+        .bg-dark{
+          background: transparent !important;
+        }
+        	.card-body{
+        		padding: 3.25rem;
+        	 
+          }
+
+          .card-body h3{
+
+
+    font-family: 'Luckiest Guy', cursive;
+    color:#f9d21f;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+    font-size: 40px;
+          }
+          #file{
+            background-color: transparent;
+            border:2px solid #2b6dce;
+            font-family: 'Lilita One', cursive;
+            color:#f9d21f;
+          }
+          #search{
+             font-family: 'Lilita One', cursive;
+          background-color:#f9d21f;
+           text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+          border:2px solid #2b6dce;
+          font-size: 20px;
+          }
+          #searching{
+            font-family: 'Lilita One', cursive;
+            color:#f9d21f;
+          }
+          #results h3{
+          font-family: 'Luckiest Guy', cursive;
+    color:#f9d21f;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+    font-size: 40px;  
+          }
+          #data{
+            font-family: 'Lilita One', cursive;
+           text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+          border:2px solid #2b6dce;
+          font-size: 20px;
+          }
+          #uploading{
+            font-family: 'Lilita One', cursive;
+            color:#f9d21f;
+          }
+          #uploaded{
+            font-family: 'Lilita One', cursive;
+            color:#f9d21f;
+          }
+          .card{
+            width:50%;margin:auto; 
+            background-color: rgba(0, 0, 0, 0.7) !important; 
+            border:2px solid #2b6dce;
+            -webkit-box-shadow: 10px 10px 20px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px 8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 20px 8px rgba(0,0,0,0.75);
+flex-direction: unset;
+          }
+          .search_images{
+            margin:20px 0px;
+
+          }
+          .search_images img{
+            object-fit: cover;
+height: 200px;
+width: auto;
+          }
+          .form-group{
+            width:50%;
+            margin: auto;
+          }
+           #data{
+            padding:50px 0px;
+            width: 100%;
+            margin: 100px 0px;
+          }
+          #data-2{
+            padding:50px 0px;
+            width: 100%;
+          }
+          #position{
+            padding:100px 0px; 
+          }
+          input[type="file" ] {
+            display: none;
+          }
+          .custom-file-upload {
+            font-family: 'Lilita One', cursive;
+            color: #f9d21f;
+    border: 1px solid #2b6dce;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+ .custom-file-upload:hover{
+  background-color: #2b6dce;
+  border-color: #f9d21f;
+ }
+          p{
+            text-align: center;
+          }
+          hr{
+           border-top:2px solid #2b6dce;  
+          }
+          .body-background{
+            background-image: url("../img/back.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+          }
+          .body-background-1{
+            background-image: url("../img/back-1.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+          }
+          .footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: transparent;
+  text-align: center;
+}
+.footer p {
+
+    font-family: 'Luckiest Guy', cursive;
+    color:#f9d21f;
+    text-shadow: -1px 0 #2b6dce, 0 1px #2b6dce, 1px 0 #2b6dce, 0 -1px #2b6dce;
+}
+
+     .loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 5s linear infinite;
+  margin: auto;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+          @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+          .card{
+            width: 100%;
+          }
+          .card-body{
+            padding:30px 20px;
+          }
+          .form-group{
+            width:100%;
+          }
+
+}
